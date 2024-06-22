@@ -1,0 +1,7 @@
+.single-user-container {
+  display: flex;
+}
+
+.single-user-container * {
+  margin: 0.2rem;
+}
