@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { UsersContext } from "../../context/usersContext";
 import SingleUser from "../../components/SingleUser/SingleUser";
 
+import "./UsersPage.css";
+
 const UsersPage = () => {
   const { usersData } = useContext(UsersContext);
   return (

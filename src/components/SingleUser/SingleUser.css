@@ -1,7 +1,21 @@
 .single-user-container {
-  display: flex;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: space-between;
+  background: var(--main-blue);
+  padding: 0.3rem;
+  margin: 1rem;
+  border-radius: 10px;
 }
 
 .single-user-container * {
   margin: 0.2rem;
+  color: #fcfcfc;
+}
+
+.single-user-container button {
+  background: var(--dark-blue);
+  border: none;
+  border-radius: 5px;
 }
